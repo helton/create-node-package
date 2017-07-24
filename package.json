@@ -1,0 +1,12 @@
+{
+  "name": "helton-create-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "consoleplusplus": "^1.4.1",
+    "optimist": "^0.6.1",
+    "rambda": "^0.7.5",
+    "shelljs": "^0.7.8"
+  }
+}
