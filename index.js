@@ -8,9 +8,6 @@ require('consoleplusplus')
 const defaultModules = []
 const defaultDevModules = ['standard', 'snazzy', 'ava']
 
-// How to run it?
-// > create-node-package --parentDirectory=~/Documents/labs/nodejs/node-modules-sandbox/ --projectName=testing-json-server-module --modules=json-server --devModules=pm2,nodemon --editor=code --isEditorOpened
-
 const validate = () => argv.parentDirectory && argv.projectName
 
 const showCommand = command => console.info('> ' + command)

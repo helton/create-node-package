@@ -1,12 +1,27 @@
 {
-  "name": "helton-create-sandbox",
+  "name": "create-node-package",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "description": "CLI to create Node JS applications",
   "dependencies": {
     "consoleplusplus": "^1.4.1",
     "optimist": "^0.6.1",
     "rambda": "^0.7.5",
     "shelljs": "^0.7.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helton/create-node-package.git"
+  },
+  "keywords": [
+    "node",
+    "package",
+    "generator"
+  ],
+  "author": "Helton Carlos de Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helton/create-node-package/issues"
+  },
+  "homepage": "https://github.com/helton/create-node-package#readme"
 }
