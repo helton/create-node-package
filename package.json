@@ -1,6 +1,6 @@
 {
   "name": "create-node-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "CLI to create Node JS applications",
   "dependencies": {
@@ -8,6 +8,9 @@
     "optimist": "^0.6.1",
     "rambda": "^0.7.5",
     "shelljs": "^0.7.8"
+  },
+  "bin": {
+    "create-node-package": "./index.js"
   },
   "repository": {
     "type": "git",
