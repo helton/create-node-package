@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const R = require('rambda')
 const argv = require('optimist').argv
 const shell = require('shelljs')
